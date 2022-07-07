@@ -1,0 +1,73 @@
+body {
+	
+	font-family: 'Gentium Book Plus', serif;
+    font-size: 28px;
+	background: #b5179e;
+    color: #050404;
+    background: linear-gradient(#ffffff, #eaeaea);
+}
+
+h1 {
+    text-shadow: 20px 0px 19px whitesmoke; 
+}
+
+.underline {
+    border-bottom: 4px solid #050404;
+}
+
+#header {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#foto {
+    width: 900px;
+    border-radius: 3%;
+    border: 6px solid #440d0f;
+}
+
+.gallery {
+  width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    justify-content: space-around
+  border: 1px solid #ccc;
+  text-align: center;
+
+  
+}
+
+.gallery:hover {
+  border: 3px solid #777;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.gallery img {
+ 
+ width: 85%;
+  height: auto;
+}
+
+
+
+.desc {
+  padding: 25px;
+  text-align: center;
+}
+
+
+.mustafa {
+  
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    padding: 1px;
+    width: 180px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+     text-align: center;
+}
+
